@@ -7,9 +7,9 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: cit262-cluster    # Add your cluster name here.
-  GKE_ZONE: us-central1-a   # Add your cluster zone here.
-  DEPLOYMENT_NAME: ernest-api # Add your deployment name here.
+  GKE_CLUSTER: cit262-cluster
+  GKE_ZONE: us-central1-a
+  DEPLOYMENT_NAME: ernest-api
   IMAGE: ernest-api
 
 jobs:
