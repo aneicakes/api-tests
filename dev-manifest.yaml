@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: ernest-api
-          image: us-docker.pkg.dev/rock-module-403103/ernest-api/api-tests
+        # This image is going to be the path to the image you create in a future step
+          image: us-docker.pkg.dev/my-devops-team-404512/ernest-api/api-tests
           ports:
             - containerPort: 3000
           resources:
